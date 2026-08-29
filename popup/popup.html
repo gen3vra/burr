@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div id="duebar" hidden>
+    <span id="due-since"></span>
+    <button id="done">Done</button>
+    <button id="snooze1">Snooze 1 day</button>
+    <button id="snooze7">Snooze 7 days</button>
+  </div>
+
+  <main id="editor" hidden>
+    <header>
+      <span id="domain"></span>
+      <div id="colors"></div>
+    </header>
+
+    <textarea id="note" rows="6" spellcheck="true"></textarea>
+
+    <div id="reminder">
+      <div id="rem-none">
+        <span class="rem-label">return in</span>
+        <button class="preset" data-days="1">1 day</button>
+        <button class="preset" data-days="7">1 week</button>
+        <button class="preset" data-months="1">1 month</button>
+        <button class="preset" data-months="3">3 months</button>
+        <button id="custom-toggle">custom…</button>
+      </div>
+      <div id="rem-set" hidden>
+        <span id="rem-date"></span>
+        <button id="rem-clear">cancel</button>
+      </div>
+    </div>
+
+  </main>
+
+  <div id="adder" hidden>
+    <input id="add-domain" type="text" placeholder="stick a note to a domain…" spellcheck="false">
+  </div>
+  <div id="list" hidden></div>
+
+  <div id="empty" hidden>
+    <p>Burr sticks notes to websites.</p>
+    <p class="hint">Open a site, then click Burr to leave one there.</p>
+  </div>
+
+  <div id="picker" hidden>
+    <div class="pick-head">
+      <button id="pick-prev" aria-label="Previous month">‹</button>
+      <span id="pick-month"></span>
+      <button id="pick-next" aria-label="Next month">›</button>
+    </div>
+    <div id="pick-grid"></div>
+    <div class="pick-foot">
+      <div class="tcol">
+        <button id="h-up" aria-label="Hour up">▲</button>
+        <span id="pick-h"></span>
+        <button id="h-dn" aria-label="Hour down">▼</button>
+      </div>
+      <span class="tsep">:</span>
+      <div class="tcol">
+        <button id="m-up" aria-label="Minutes up">▲</button>
+        <span id="pick-m"></span>
+        <button id="m-dn" aria-label="Minutes down">▼</button>
+      </div>
+      <span class="spacer"></span>
+      <button id="pick-cancel">cancel</button>
+    </div>
+  </div>
+
+  <footer>
+    <button id="all">all notes</button>
+    <span id="saved" aria-live="polite"></span>
+    <span class="spacer"></span>
+    <button id="export">export</button>
+    <button id="backup">backup…</button>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>

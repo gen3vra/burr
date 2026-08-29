@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Burr | backup</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+
+<body>
+  <h1>Burr</h1>
+  <p id="count"></p>
+  <div class="actions">
+    <button id="export-all">export all notes</button>
+    <button id="import">import notes</button>
+    <input type="file" id="import-file" accept=".json,application/json" hidden>
+  </div>
+  <p id="status" aria-live="polite"></p>
+  <p class="hint">
+    Notes live only in this browser profile. Uninstalling Burr deletes them.
+    Exporting is the backup. Importing merges: a note for a domain you already
+    have overwrites the stored one.
+  </p>
+  <script src="options.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+Burr: Proprietary Source-Available License
+Copyright (c) 2026 Genevra Rose. All rights reserved.
+
+The source code of Burr is published so that anyone may read it, audit what the extension does, and hold the author to it. Publication is not an offer of an open source license. No right to use, copy, modify, or distribute this software is granted except as stated below.
+
+PERMITTED
+
+  1. You may view, read, and study the source code.
+  2. You may quote short excerpts for the purpose of commentary, criticism, review, teaching, or security reporting, with attribution.
+  3. You may build and run an unmodified copy on machines you control, for your own personal, non-commercial use.
+
+NOT PERMITTED without prior written permission from the copyright holder
+
+  4. Redistributing this software or any part of it, modified or unmodified, in source or built form.
+  5. Creating or distributing derivative works.
+  6. Publishing this software, or anything derived from it, to any extension store, package registry, or app marketplace.
+  7. Using this software, or any part of it, in or as part of any product or service, whether or not for a fee.
+  8. Removing or altering this notice or any copyright notice in the source.
+
+CONTRIBUTIONS
+
+  9. By submitting a contribution (patch, pull request, or any other change) you assign all rights in that contribution to the copyright holder. If assignment is not possible under applicable law, you instead grant the copyright holder a perpetual, worldwide, irrevocable, royalty-free, sublicensable license to that contribution for any purpose, including relicensing.
+
+OTHER
+
+ 10. Permission for anything not listed under PERMITTED may be requested from the copyright holder, and may be granted or refused at their discretion.
+ 11. This license grants no rights to the name "Burr" or any associated logos or icons, beyond the attribution described in section 2.
+ 12. Nothing in this license restricts rights that cannot be limited by contract, such as fair use or fair dealing under applicable law.
+ 13. Any right not expressly granted here is reserved.
+ 14. If any provision of this license is held unenforceable, the remaining provisions stay in effect.
+ 15. This license terminates automatically if you breach it. Sections 9 through 16 survive termination.
+
+NO WARRANTY
+
+ 16. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
